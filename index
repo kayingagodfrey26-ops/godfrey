@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Godk | A Graphic Designer</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">godk<span>.</span></div>
+        <nav>
+            <a href="#gallery">Work</a>
+            <a href="#about">About</a>
+            <a href="#contact" class="nav-cta">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Godk. I make posters and business cards.</h1>
+            <p>Website designing.</p>
+            <div class="hero-btns">
+                <a href="#gallery" class="btn primary-btn">View Gallery</a>
+                <a href="#contact" class="btn secondary-btn">Let's Talk</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/5903.jpg" alt="profile-img" width="300" height="300">
+        </div>
+    </section>
+
+    <section id="gallery" class="portfolio-section">
+        <div class="section-title">
+            <h2>Design Gallery</h2>
+            <p>Click on any project category to view full commercial creative studies.</p>
+        </div>
+
+        <div class="portfolio-grid">
+            <!-- Item 1: Branding -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/BCO.16035e7e-d6cf-4a07-877d-989b6d27352e.png" alt="Aura Wellness Studio branding" width="300" height="300">
+                </div>
+                <div class="project-info">
+                    <p>Branding</p>
+                    <h3>Aura Wellness Studio</h3>
+                </div>
+            </div>
+
+            <!-- Item 2: Editorial -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/BCO.93c11287-e673-4d23-8135-f971c1b9792b.png" alt="Chronicle Architecture Mag" width="200" height="300">
+                </div>
+                <div class="project-info">
+                    <p>Poster Design</p>
+                    <h3>Chronicle Architecture Mag</h3>
+                </div>
+            </div>
+
+            <!-- Item 3: Typography -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/BCO.b964858c-b14c-4871-af2c-eca39cb442dd.png" alt="Abstract Kinetic Posters" width="300" height="300">
+                </div>
+                <div class="project-info">
+                    <p>Typography Art</p>
+                    <h3>Abstract Kinetic Posters</h3>
+                </div>
+            </div>
+
+            <!-- Item 4: Packaging -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/BCO.93c11287-e673-4d23-8135-f971c1b9792b.png" alt="Nectar Organic Botanicals packaging" width="200" height="300">
+                </div>
+                <div class="project-info">
+                    <p>Packaging</p>
+                    <h3>Nectar Organic Botanicals</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>The Creative Force</h2>
+                <p>Hi, I'm Godk — making posters, designing websites, and building brand identities that leave a mark.</p>
+                <p>With over 20 years of experience and 40+ happy clients, every project gets the full force of creative strategy and precision design.</p>
+                <div class="skills">
+                    <span class="skill-tag">Brand Identity</span>
+                    <span class="skill-tag">Posters</span>
+                    <span class="skill-tag">business cards</span>
+                    <span class="skill-tag">Repair</span>
+                    <span class="skill-tag">Web Design</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>MAKE YOUR BRAND STAND OUT</h2>
+        <p>Have an upcoming campaign, branding overhaul, or commission request? Drop a line below.</p>
+        <a href="whatsappto:contact0755501130" class="whatsapp-link">0755501130</a>
+
+        <div class="social-links">
+            <a href="#" target="_blank">Behance</a>
+            <a href="#" target="_blank">Dribbble</a>
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Godk. All rights reserved. Graphic Designer International.</p>
+    </footer>
+
+</body>
+</html>
